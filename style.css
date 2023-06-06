@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  min-height: 100vh;
+  font-size: 18px;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 350px;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
+
+.person img {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+h1 {
+  display: inline-block;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h1 + span {
+  color: #969696;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.card > p {
+  color: #6a6f81;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.details {
+  font-size: 0.8rem;
+  color: #6a6f81;
+}
+
+footer {
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
